@@ -4,15 +4,9 @@
     box-sizing: inherit; 
 }
   
-/* *,
-*::before,
-*::after {
-    box-sizing: inherit; 
-} */
-  
 html {
     box-sizing: border-box;
-    font-size: 62.5%; 
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
 }
   
 body {
@@ -20,10 +14,6 @@ body {
     font-weight: 400;
     line-height: 1.6;
     color: #777;
-    background-image: linear-gradient(to right bottom, #ff3366,  #ba265d);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh; 
 }
   
 .container {
@@ -138,9 +128,7 @@ body {
 }
 
 .search__icon {
-    height: 2rem;
-    width: 2rem;
-    fill: #999; 
+    color: #999;
 }
   
 .user-nav {
@@ -163,12 +151,6 @@ body {
 
 .user-nav__icon-box {
     position: relative; 
-}
-
-.user-nav__icon {
-    height: 2.25rem;
-    width: 2.25rem;
-    fill: #777; 
 }
 
 .user-nav__notification {
@@ -240,10 +222,8 @@ body {
 }
 
 .side-nav__icon {
-    width: 1.75rem;
-    height: 1.75rem;
     margin-right: 2rem;
-    fill: currentColor; 
+    color: currentColor; 
 }
   
 .legal {
@@ -282,9 +262,7 @@ body {
 }
 
 .overview__icon-star, .overview__icon-location {
-    width: 1.75rem;
-    height: 1.75rem;
-    fill: #eb2f64; 
+    color: #eb2f64; 
 }
 
 .overview__location {
